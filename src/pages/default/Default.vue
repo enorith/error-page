@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <div class="container mx-auto">
+    <div class="container mx-auto lg:px-10 sm:px-0">
       <Card class="dark:bg-red-900 dark:bg-opacity-60">
         <p :class="errorData.Fatal ? 'text-red-400' : 'text-gray'" class="pl-8 pt-4 pb-4 text-left  font-semibold" v-text="message">/>
         <p class="text-left pb-3 pl-8 text-sm dark:text-gray-300 text-gray-400" v-text="desc"/>
