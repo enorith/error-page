@@ -8,8 +8,8 @@
         </p>
       </Card>
 
-      <Card class="dark:bg-gray-600"> 
-        
+      <Card class="dark:bg-gray-600 rounded-md"> 
+        <p></p>
       </Card>
     </div>
   </div>
