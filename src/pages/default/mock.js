@@ -1,29 +1,79 @@
+
 window._errorData = {
-    "Code": 500,
-    "File": "C:/Users/Nerio/go/src/github.com/enorith/http/content/response.go",
-    "Line": 235,
-    "Message": "Bad Request",
-    "Debug": true,
-    "Recovered": false,
-    "Fatal": true,
-    "Traces":
-        [
-            { "File": "C:/Users/Nerio/go/src/github.com/enorith/http/content/response.go", "Line": 154 },
-            { "File": "C:/Users/Nerio/go/src/github.com/enorith/http/router/wrapper.go", "Line": 267 },
-            { "File": "C:/Users/Nerio/go/src/github.com/enorith/http/router/wrapper.go", "Line": 64 },
-            { "File": "C:/Users/Nerio/go/src/github.com/enorith/http/router/wrapper.go", "Line": 232 },
-            { "File": "C:/Users/Nerio/go/src/github.com/enorith/http/router/wrapper.go", "Line": 222 },
-            { "File": "C:/Users/Nerio/go/src/github.com/enorith/http/kernel.go", "Line": 226 },
-            { "File": "C:/Users/Nerio/go/src/github.com/enorith/http/pipeline.go", "Line": 53 },
-            { "File": "C:/Users/Nerio/go/src/github.com/enorith/http/pipeline.go", "Line": 54 },
-            { "File": "C:/Users/Nerio/go/src/github.com/enorith/http/kernel.go", "Line": 224 },
-            { "File": "C:/Users/Nerio/go/src/github.com/enorith/http/kernel.go", "Line": 191 },
-            { "File": "C:/Users/Nerio/go/src/github.com/enorith/http/kernel.go", "Line": 117 },
-            { "File": "C:/Users/Nerio/go/src/github.com/enorith/http/kernel.go", "Line": 65 },
-            { "File": "C:/Users/Nerio/go/src/github.com/enorith/http/kernel.go", "Line": 115 },
-            { "File": "C:/Users/Nerio/go/src/github.com/valyala/fasthttp/server.go", "Line": 2244 },
-            { "File": "C:/Users/Nerio/go/src/github.com/valyala/fasthttp/workerpool.go", "Line": 223 },
-            { "File": "C:/Users/Nerio/go/src/github.com/valyala/fasthttp/workerpool.go", "Line": 195 },
-            { "File": "C:/Program Files/Go/src/runtime/asm_amd64.s", "Line": 1371 }
-        ]
+    "code": 500,
+    "file": "C:/Users/Nerio/go/src/github.com/enorith/http/content/response.go",
+    "line": 154,
+    "message": "Internal Server Error",
+    "debug": false,
+    "fatal": true,
+    "traces": [
+        {
+            "file": "C:/Users/Nerio/go/src/github.com/enorith/http/content/response.go",
+            "line": 154
+        },
+        {
+            "file": "C:/Users/Nerio/go/src/github.com/enorith/http/router/wrapper.go",
+            "line": 211
+        },
+        {
+            "file": "C:/Users/Nerio/go/src/github.com/enorith/http/router/wrapper.go",
+            "line": 51
+        },
+        {
+            "file": "C:/Users/Nerio/go/src/github.com/enorith/http/router/wrapper.go",
+            "line": 183
+        },
+        {
+            "file": "C:/Users/Nerio/go/src/github.com/enorith/http/router/wrapper.go",
+            "line": 173
+        },
+        {
+            "file": "C:/Users/Nerio/go/src/github.com/enorith/http/kernel.go",
+            "line": 238
+        },
+        {
+            "file": "C:/Users/Nerio/go/src/github.com/enorith/http/pipeline.go",
+            "line": 53
+        },
+        {
+            "file": "C:/Users/Nerio/go/src/github.com/enorith/http/pipeline.go",
+            "line": 54
+        },
+        {
+            "file": "C:/Users/Nerio/go/src/github.com/enorith/http/kernel.go",
+            "line": 236
+        },
+        {
+            "file": "C:/Users/Nerio/go/src/github.com/enorith/http/kernel.go",
+            "line": 195
+        },
+        {
+            "file": "C:/Users/Nerio/go/src/github.com/enorith/http/kernel.go",
+            "line": 118
+        },
+        {
+            "file": "C:/Users/Nerio/go/src/github.com/enorith/http/kernel.go",
+            "line": 66
+        },
+        {
+            "file": "C:/Users/Nerio/go/src/github.com/enorith/http/kernel.go",
+            "line": 116
+        },
+        {
+            "file": "C:/Users/Nerio/go/pkg/mod/github.com/valyala/fasthttp@v1.23.0/server.go",
+            "line": 2207
+        },
+        {
+            "file": "C:/Users/Nerio/go/pkg/mod/github.com/valyala/fasthttp@v1.23.0/workerpool.go",
+            "line": 223
+        },
+        {
+            "file": "C:/Users/Nerio/go/pkg/mod/github.com/valyala/fasthttp@v1.23.0/workerpool.go",
+            "line": 195
+        },
+        {
+            "file": "C:/Program Files/Go/src/runtime/asm_amd64.s",
+            "line": 1371
+        }
+    ]
 }
